@@ -18,6 +18,10 @@ a:hover{
     font-weight: bold;
 }
 
+#logo img{
+    width: 120px;
+}
+
 #header{
     box-sizing: border-box;
     height: 70px;
