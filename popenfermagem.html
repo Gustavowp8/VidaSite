@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="estilo/style.css">
     <title>Inicio</title>
 </head>
-<body onload="carregar()">
+<body onload="carregar()" id="popss">
     
     <header id="header">
-        <a id="logo" href="#"><img src="img/logo.png"></a>
+        <a id="logo" href="index.html"><img src="img/logo.png"></a>
 
         <nav id="nav">
 
@@ -19,7 +19,7 @@
 
             <ul id="menu">
                 <li><a href="#" onclick="aviso()">Departamentos</a></li>
-                <li><a href="pop.html">POPs</a></li>
+                <li><a href="#">POPs</a></li>
                 <li><a href="#" onclick="aviso()">Escalas</a></li>
                 <li><a href="#" onclick="aviso()">Contatos</a></li>
                 <li><a href="#" onclick="aviso()">Sobre</a></li>
@@ -30,42 +30,23 @@
 
     <div class="conteudo">
 
+        <h2 id="tTitulo">POPs - ENFERMAGEM</h2>
 
-        <div class="comprimentos">
+        <div id="docb">
 
-           <section>
-
-            <div class="aouser">
-
-                <div id="foto">
-                    <img id="imagem" src="img/01 - manha.png" >
-                </div>
-
-                <div>
-                    <h2 id="msg">Mensagem ao usuario</h2>
-                    <p>Este site esta em fase de construção</p>
-                </div>
-
+            <div id="docA">
+                <img src="img/documento.png" alt="doc">
+                <a id="docS" href="ArquivosPdf/POPs/POP -MANIFESTO DE TRANSPORTE DE RESIDUO - MTR.pdf" download="meu-arquivo.pdf"> 001 - BAIXAR -POP - MANIFESTO DE TRANSPORTE DE RESIDUO - MTR </a>
             </div>
 
-           </section>
+            <div id="docA">
+                <img src="img/documento.png" alt="doc">
+                <a id="docS" href="#"> 002 - INDESPONIVEL </a>
+            </div>
 
         </div>
-
-        <div class="noticias">
-
-            <h2>Em breve novidades.</h2>
-
-            <p>
-                Este espaço será reservado para avisos e comunicados dos lideres aos colaboradores, fique a vontade para dar dicas e sugestão de melhorias para este site.
-            </p>
-
-        </div>
-
-
     </div>
-
+    
     <script src="funcao/app.js"></script>
-
 </body>
 </html>
